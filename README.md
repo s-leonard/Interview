@@ -43,7 +43,7 @@ the end result is going to be similar, we need to see a persons drug schedule
 
 Examples
 
-data sctructure
+# Data structure
 ```
 [
   {
@@ -65,6 +65,17 @@ data sctructure
 	"times" : ["12:00"]
   }
 ]
+```
+
+# Class
+```
+public class Drug
+{
+	public string name { get; set; }
+	public string start { get; set; }
+	public string end { get; set; }
+	public List<string> times { get; set; }
+}
 ```
 
 
