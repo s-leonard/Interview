@@ -11,7 +11,7 @@ So we store drug schedules
 - Asprin between Jan 15th 2022 to Feb 28th 2022 and I'm taking it at 08:00, 12:30 & 15:30
 - Metformin between Jan 1st 2022 to Feb 1st 2022 and I'm taking it at 12:00
 
-Then we would have a function `getScheduleForDay()` where we pass in a given day to that function example: `Feb 9th 2022`
+Then we would have a function `getScheduleForDay()` where we pass in a given day to that function example: `2022-02-09`
 
 And it going to return the users drug schedule for the day in time order
 
